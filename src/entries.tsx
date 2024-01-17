@@ -11,7 +11,7 @@ export default createPages(async ({ createPage, createLayout }) => {
   });
 
   createPage({
-    render: "static",
+    render: "dynamic",
     path: "/",
     component: HomePage,
   });
