@@ -52,12 +52,3 @@ export const HomePage = async () => {
     </div>
   );
 };
-
-const getData = async () => {
-  const data = {
-    title: "Waku Pokemon",
-    body: "Get your pokemon here!",
-  };
-
-  return data;
-};
